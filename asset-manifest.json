@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Guard/static/css/main.70f267c5.css",
-    "main.js": "/Guard/static/js/main.2d737946.js",
+    "main.css": "/Guard/static/css/main.59e46f92.css",
+    "main.js": "/Guard/static/js/main.771c9234.js",
     "static/js/453.c5313014.chunk.js": "/Guard/static/js/453.c5313014.chunk.js",
     "static/media/Logo.png": "/Guard/static/media/Logo.8347bc7718f005dc8ab7.png",
     "static/media/aboutgroub2.jpg": "/Guard/static/media/aboutgroub2.31b35e8fb0bf7dc8be06.jpg",
@@ -15,12 +15,12 @@
     "static/media/intro2.jpg": "/Guard/static/media/intro2.fb4ea905f13f84f6c484.jpg",
     "static/media/portrait-male-security-guard-with-radio-station.jpg": "/Guard/static/media/portrait-male-security-guard-with-radio-station.8a8e0ac73ba724586aca.jpg",
     "index.html": "/Guard/index.html",
-    "main.70f267c5.css.map": "/Guard/static/css/main.70f267c5.css.map",
-    "main.2d737946.js.map": "/Guard/static/js/main.2d737946.js.map",
+    "main.59e46f92.css.map": "/Guard/static/css/main.59e46f92.css.map",
+    "main.771c9234.js.map": "/Guard/static/js/main.771c9234.js.map",
     "453.c5313014.chunk.js.map": "/Guard/static/js/453.c5313014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70f267c5.css",
-    "static/js/main.2d737946.js"
+    "static/css/main.59e46f92.css",
+    "static/js/main.771c9234.js"
   ]
 }
