@@ -1,0 +1,39 @@
+@use '../../helpers/functions' as *;
+
+.Services {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.966),
+            rgba(0, 0, 0, 0.89)), url('../../Assets/portrait-male-security-guard-with-radio-station.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    img {
+        width: 40%;
+        transition: 1s ease-out all;
+
+        @include Breakpoints(medium) {
+            width: 70%;
+        }
+
+        @include Breakpoints(small) {
+            width: 80%;
+        }
+
+        @include Breakpoints(mobile) {
+            width: 90%;
+            order: 1 !important;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    article {
+        @include Breakpoints(mobile) {
+            order: 2 !important;
+        }
+    }
+}

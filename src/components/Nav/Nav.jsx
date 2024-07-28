@@ -11,7 +11,7 @@ export default function Nav() {
 
 
 
-    return <nav className="">
+    return <nav className="fixed z-10 w-full">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3">
             <img src={Logo} alt="Logo" width={"80px"} height={"80px"} />
             <button data-collapse-toggle="navbar-default" type="button"

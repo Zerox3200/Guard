@@ -1,0 +1,194 @@
+$bg-color: black;
+
+$fg-color: #B73F41;
+
+.loader {
+    animation: spin 1.5s linear infinite;
+    background: $fg-color;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+
+    &:before {
+        background: $fg-color;
+        border-radius: 50%;
+        content: '';
+        display: block;
+        height: 0.5em;
+        width: 0.5em;
+        z-index: 2;
+    }
+
+    &:after {
+        background: $bg-color;
+        border-radius: 50%;
+        box-shadow: 0em -2.60em $bg-color,
+            2.25em -4.02em $bg-color,
+            2.25em -1.25em $bg-color,
+            4.60em 0em $bg-color,
+            2.25em 1.25em $bg-color,
+            2.25em 4.02em $bg-color,
+            0em 2.60em $bg-color,
+            -2.25em 4.02em $bg-color,
+            -2.25em 1.25em $bg-color,
+            -4.60em 0em $bg-color,
+            -2.25em -1.25em $bg-color,
+            -2.25em -4.02em $bg-color;
+        content: '';
+        display: block;
+        height: 2em;
+        width: 2em;
+    }
+}
+
+.inner {
+    animation: load 1.5s linear infinite;
+    border-radius: 50%;
+    height: 1.75em;
+    width: 1.75em;
+    z-index: 1;
+}
+
+.loader,
+.loader:before,
+.loader:after,
+.inner {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@keyframes load {
+    0% {
+        box-shadow: 0em -2.60em $bg-color,
+            2.25em -1.25em $bg-color,
+            2.25em 1.25em $bg-color,
+            0em 2.60em $bg-color,
+            -2.25em 1.25em $bg-color,
+            -2.25em -1.25em $bg-color;
+    }
+
+    15% {
+        box-shadow: 0em -2.60em $bg-color,
+            2.25em -1.25em $bg-color,
+            2.25em 1.25em $bg-color,
+            0em 2.60em $bg-color,
+            -2.25em 1.25em $bg-color,
+            -2.25em -1.25em $fg-color;
+    }
+
+    30% {
+        box-shadow: 0em -2.60em $bg-color,
+            2.25em -1.25em $bg-color,
+            2.25em 1.25em $bg-color,
+            0em 2.60em $bg-color,
+            -2.25em 1.25em $fg-color,
+            -2.25em -1.25em $fg-color;
+    }
+
+    45% {
+        box-shadow: 0em -2.60em $bg-color,
+            2.25em -1.25em $bg-color,
+            2.25em 1.25em $bg-color,
+            0em 2.60em $fg-color,
+            -2.25em 1.25em $fg-color,
+            -2.25em -1.25em $fg-color;
+    }
+
+    60% {
+        box-shadow: 0em -2.60em $bg-color,
+            2.25em -1.25em $bg-color,
+            2.25em 1.25em $fg-color,
+            0em 2.60em $fg-color,
+            -2.25em 1.25em $fg-color,
+            -2.25em -1.25em $fg-color;
+    }
+
+    75% {
+        box-shadow: 0em -2.60em $bg-color,
+            2.25em -1.25em $fg-color,
+            2.25em 1.25em $fg-color,
+            0em 2.60em $fg-color,
+            -2.25em 1.25em $fg-color,
+            -2.25em -1.25em $fg-color;
+    }
+
+    90% {
+        box-shadow: 0em -2.60em $bg-color,
+            2.25em -1.25em $fg-color,
+            2.25em 1.25em $fg-color,
+            0em 2.60em $fg-color,
+            -2.25em 1.25em $fg-color,
+            -2.25em -1.25em $fg-color;
+    }
+
+    100% {
+        box-shadow: 0em -2.60em $fg-color,
+            2.25em -1.25em $fg-color,
+            2.25em 1.25em $fg-color,
+            0em 2.60em $fg-color,
+            -2.25em 1.25em $fg-color,
+            -2.25em -1.25em $fg-color;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(0deg);
+    }
+
+    15% {
+        transform: rotate(60deg);
+    }
+
+    25% {
+        transform: rotate(60deg);
+    }
+
+    30% {
+        transform: rotate(120deg);
+    }
+
+    40% {
+        transform: rotate(120deg);
+    }
+
+    45% {
+        transform: rotate(180deg);
+    }
+
+    55% {
+        transform: rotate(180deg);
+    }
+
+    60% {
+        transform: rotate(240deg);
+    }
+
+    70% {
+        transform: rotate(240deg);
+    }
+
+    75% {
+        transform: rotate(300deg);
+    }
+
+    85% {
+        transform: rotate(300deg);
+    }
+
+    90% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
