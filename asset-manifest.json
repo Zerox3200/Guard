@@ -1,11 +1,8 @@
 {
   "files": {
-    "main.css": "/Guard/static/css/main.5843df2c.css",
-    "main.js": "/Guard/static/js/main.c34b133c.js",
-    "static/css/27.5ce735f7.chunk.css": "/Guard/static/css/27.5ce735f7.chunk.css",
-    "static/js/27.08c87e81.chunk.js": "/Guard/static/js/27.08c87e81.chunk.js",
+    "main.css": "/Guard/static/css/main.70f267c5.css",
+    "main.js": "/Guard/static/js/main.2d737946.js",
     "static/js/453.c5313014.chunk.js": "/Guard/static/js/453.c5313014.chunk.js",
-    "static/js/648.f43eb100.chunk.js": "/Guard/static/js/648.f43eb100.chunk.js",
     "static/media/Logo.png": "/Guard/static/media/Logo.8347bc7718f005dc8ab7.png",
     "static/media/aboutgroub2.jpg": "/Guard/static/media/aboutgroub2.31b35e8fb0bf7dc8be06.jpg",
     "static/media/aboutgroub.jpg": "/Guard/static/media/aboutgroub.796b5f9c16332468e1ca.jpg",
@@ -18,15 +15,12 @@
     "static/media/intro2.jpg": "/Guard/static/media/intro2.fb4ea905f13f84f6c484.jpg",
     "static/media/portrait-male-security-guard-with-radio-station.jpg": "/Guard/static/media/portrait-male-security-guard-with-radio-station.8a8e0ac73ba724586aca.jpg",
     "index.html": "/Guard/index.html",
-    "main.5843df2c.css.map": "/Guard/static/css/main.5843df2c.css.map",
-    "main.c34b133c.js.map": "/Guard/static/js/main.c34b133c.js.map",
-    "27.5ce735f7.chunk.css.map": "/Guard/static/css/27.5ce735f7.chunk.css.map",
-    "27.08c87e81.chunk.js.map": "/Guard/static/js/27.08c87e81.chunk.js.map",
-    "453.c5313014.chunk.js.map": "/Guard/static/js/453.c5313014.chunk.js.map",
-    "648.f43eb100.chunk.js.map": "/Guard/static/js/648.f43eb100.chunk.js.map"
+    "main.70f267c5.css.map": "/Guard/static/css/main.70f267c5.css.map",
+    "main.2d737946.js.map": "/Guard/static/js/main.2d737946.js.map",
+    "453.c5313014.chunk.js.map": "/Guard/static/js/453.c5313014.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5843df2c.css",
-    "static/js/main.c34b133c.js"
+    "static/css/main.70f267c5.css",
+    "static/js/main.2d737946.js"
   ]
 }
