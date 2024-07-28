@@ -1,6 +1,7 @@
 import React from 'react'
 import './Intro.scss'
-import IntroImage from '../../Assets/portrait-male-security-guard-with-radio-station.jpg'
+// import IntroImage from '../../Assets/intro.jpg'
+import IntroImage from '../../Assets/intro2.jpg'
 
 export default function Intro() {
     return (

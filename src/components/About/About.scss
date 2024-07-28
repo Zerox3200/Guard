@@ -1,26 +1,33 @@
-@use '../../helpers/functions' as *;
+@use "../../helpers/functions" as *;
 
 .About {
-
     .Service_Card {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    >div {
-        background-image: url('../../Assets/EventSec.jpg');
+    > div {
+        // background-image: url('../../Assets/EventSec.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.567)),
+            url("../../Assets/aboutgroub.jpg");
     }
 
     div:nth-of-type(2) {
-        background-image: url('../../Assets/portrait-male-security-guard-with-radio-station-camera-screens.jpg');
+        // background-image: url('../../Assets/portrait-male-security-guard-with-radio-station-camera-screens.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.567)),
+            url("../../Assets/about4.jpg");
     }
 
     div:nth-of-type(3) {
-        background-image: url('../../Assets/medium-shot-people-working-with-devices.jpg');
+        // background-image: url('../../Assets/medium-shot-people-working-with-devices.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.567)),
+            url("../../Assets/aboutgroub2.jpg");
     }
 
     div:nth-of-type(4) {
-        background-image: url('../../Assets/jakob-dalbjorn-cuKJre3nyYc-unsplash.jpg');
+        // background-image: url('../../Assets/jakob-dalbjorn-cuKJre3nyYc-unsplash.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.567)),
+            url("../../Assets/aboutgroubb.jpg");
     }
 }

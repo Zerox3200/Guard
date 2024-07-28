@@ -1,4 +1,4 @@
-@use '../../helpers/functions' as *;
+@use "../../helpers/functions" as *;
 
 .Intro {
     border: solid black 1px;
@@ -8,6 +8,7 @@
 
     img {
         width: 600px;
+        border-radius: 75px 0px 122px 0px;
 
         @include Breakpoints(medium) {
             order: 1;
@@ -25,7 +26,6 @@
     }
 
     article {
-
         @include Breakpoints(medium) {
             order: 2;
         }
