@@ -1,0 +1,9 @@
+@use "../../helpers/functions.scss" as *;
+
+nav {
+    background-color: rgb(0, 0, 0);
+
+    li {
+        color: white;
+    }
+}

@@ -1,0 +1,26 @@
+@use '../../helpers/functions' as *;
+
+.About {
+
+    .Service_Card {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    >div {
+        background-image: url('../../Assets/EventSec.jpg');
+    }
+
+    div:nth-of-type(2) {
+        background-image: url('../../Assets/portrait-male-security-guard-with-radio-station-camera-screens.jpg');
+    }
+
+    div:nth-of-type(3) {
+        background-image: url('../../Assets/medium-shot-people-working-with-devices.jpg');
+    }
+
+    div:nth-of-type(4) {
+        background-image: url('../../Assets/jakob-dalbjorn-cuKJre3nyYc-unsplash.jpg');
+    }
+}

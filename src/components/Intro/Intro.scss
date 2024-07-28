@@ -1,0 +1,41 @@
+@use '../../helpers/functions' as *;
+
+.Intro {
+    border: solid black 1px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 76px));
+    padding: 20px 0 200px 0;
+
+    img {
+        width: 600px;
+
+        @include Breakpoints(medium) {
+            order: 1;
+        }
+
+        @include Breakpoints(small) {
+            order: 1;
+            width: 600px;
+        }
+
+        @include Breakpoints(mobile) {
+            order: 1;
+            width: 90%;
+        }
+    }
+
+    article {
+
+        @include Breakpoints(medium) {
+            order: 2;
+        }
+
+        @include Breakpoints(small) {
+            order: 2;
+        }
+
+        @include Breakpoints(mobile) {
+            order: 2;
+        }
+    }
+}
