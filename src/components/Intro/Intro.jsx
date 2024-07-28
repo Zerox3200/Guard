@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function Intro() {
     return (
-        <div className='Intro flex flex-wrap justify-evenly items-center'>
+        <div className='Intro flex flex-wrap  items-center'>
             <motion.article className="format lg:format-lg mt-10 px-4" initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, type: "tween" }}>
                 <h1>Pro 85 guard</h1>

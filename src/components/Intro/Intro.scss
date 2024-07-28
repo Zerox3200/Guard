@@ -6,10 +6,12 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 76px));
     padding: 120px 0 0 0;
     height: 950px;
+    justify-content: space-evenly;
 
     @include Breakpoints(mobile) {
-        padding: 120px 0 200px 0;
-        height: max-content;
+        height: 1000px;
+        justify-content: center;
+        align-content: flex-start;
     }
 
     img {
